@@ -38,5 +38,20 @@ fun HomeScreen(navController: NavController) {
         ) {
             Text("Upcoming Races")
         }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Button(
+            onClick = {
+                navController.navigate("drivers")
+            },
+            modifier = Modifier.testTag("driverButton") // for testing
+        ) {
+            Text("Drivers")
+        }
     }
 }
+
+/*
+to do: update so that you can navigate from FormulaZero Home to Drivers screen
+ */

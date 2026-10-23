@@ -52,4 +52,60 @@ class FormulaZeroTest {
             .onNodeWithText("FormulaZero Home")
             .assertExists()
     }
+
+    @Test
+    fun add_and_clear_drivers_and_go_home() {
+        // navigate to drivers screen
+        composeTestRule
+            .onNodeWithTag("driverButton")
+            .performClick()
+
+        // verify this is the drivers screen
+        composeTestRule
+            .onNodeWithText("FormulaZero Drivers")
+            .assertExists()
+
+        // enter driver name
+        composeTestRule
+            .onNodeWithTag("nameInput")
+            .performTextInput("John Doe")
+
+        // add driver name to list
+        composeTestRule
+            .onNodeWithTag("addDriverButton")
+            .performClick()
+
+        // verify driver appears in list
+        composeTestRule
+            .onNodeWithText("John Doe")
+            .assertExists()
+
+        // confirm you can clear out list
+        composeTestRule
+            .onNodeWithTag("clearDriverButton")
+            .performClick()
+
+        // confirm driver no longer exists
+        composeTestRule
+            .onNodeWithText("John Doe")
+            .assertDoesNotExist()
+
+        // return to home screen
+        composeTestRule
+            .onNodeWithTag("backButton")
+            .performClick()
+
+        // verify return to home screen
+        composeTestRule
+            .onNodeWithText("FormulaZero Home")
+            .assertExists()
+    }
 }
+
+/*
+to do
+- Verify that you can properly go from the HomeScreen to the DriversScreen
+- Verify that you can properly add at least one driver, and if that driver is properly displayed
+- Verify that you can properly clear the driver(s) from the list
+- Verify that the back button takes you back to the HomeScreen
+ */
