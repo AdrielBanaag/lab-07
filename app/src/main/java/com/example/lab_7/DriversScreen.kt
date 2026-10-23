@@ -1,18 +1,18 @@
 package com.example.lab_7
 
-/* requirements
-- There should be a button to return to the HomeScreen
-- There should be text indicating that it's the DriversScreen (i.e., "FormulaZero Drivers")
-- There should be a text field and a button to add drivers, where drivers added will be displayed in a list format
-- There should be a button to clear all drivers displayed
+/* requirements [All Complete]
+- There should be a button to return to the HomeScreen [Complete]
+- There should be text indicating that it's the DriversScreen (i.e., "FormulaZero Drivers") [Complete]
+- There should be a text field and a button to add drivers, where drivers added will be displayed in a list format [Complete]
+- There should be a button to clear all drivers displayed [Complete]
 */
 
 /*
-will be verified:
-- Verify that you can properly go from the HomeScreen to the DriversScreen
-- Verify that you can properly add at least one driver, and if that driver is properly displayed
-- Verify that you can properly clear the driver(s) from the list
-- Verify that the back button takes you back to the HomeScreen
+will be verified: [All Complete]
+- Verify that you can properly go from the HomeScreen to the DriversScreen [Complete]
+- Verify that you can properly add at least one driver, and if that driver is properly displayed [Complete]
+- Verify that you can properly clear the driver(s) from the list [Complete]
+- Verify that the back button takes you back to the HomeScreen [Complete]
  */
 
 import androidx.compose.foundation.layout.Arrangement

@@ -53,5 +53,6 @@ fun HomeScreen(navController: NavController) {
 }
 
 /*
-to do: update so that you can navigate from FormulaZero Home to Drivers screen
+to do:
+- update so that you can navigate from FormulaZero Home to Drivers screen [Complete]
  */

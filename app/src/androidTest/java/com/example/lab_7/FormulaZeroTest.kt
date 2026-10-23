@@ -103,9 +103,9 @@ class FormulaZeroTest {
 }
 
 /*
-to do
-- Verify that you can properly go from the HomeScreen to the DriversScreen
-- Verify that you can properly add at least one driver, and if that driver is properly displayed
-- Verify that you can properly clear the driver(s) from the list
-- Verify that the back button takes you back to the HomeScreen
+to do  [All Complete]
+- Verify that you can properly go from the HomeScreen to the DriversScreen [Complete]
+- Verify that you can properly add at least one driver, and if that driver is properly displayed [Complete]
+- Verify that you can properly clear the driver(s) from the list [Complete]
+- Verify that the back button takes you back to the HomeScreen [Complete]
  */
